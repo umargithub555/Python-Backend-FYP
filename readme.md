@@ -3,23 +3,25 @@
 A Python backend that provides REST APIs for **disease prediction**, **clinical notes generation**, and **doctor recommendation** based on prescriptions.  
 Built with **FastAPI**, **ML models**, and industry-standard best practices.
 
+
+Disclaimer: These apis were used alongside with the main node-js backend for our health application (FYP)for reference you can visit marham.pk or oladoc.
+
 ---
 
 ## 🚀 Features
 
 - **Disease Prediction** – Predicts possible diseases from patient symptoms.
-- **Clinical Notes Generation** – Generates structured clinical notes from patient descriptions.
-- **Doctor Recommendation** – Suggests specialized doctors based on prescription data.
+- **Clinical Notes Generation** – Generates structured clinical notes from patient history.
+- **Doctor Recommendation** – Suggests specialized doctors based on prescription image.
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Backend Framework**: FastAPI
-- **Database**: PostgreSQL (or MongoDB, configurable)
-- **Machine Learning**: Scikit-learn / TensorFlow / huggingface (based on use case)
+- **Machine Learning**: Scikit-learn / TensorFlow / huggingface 
 - **Environment Management**: `python-dotenv`
-- **API Documentation**: Swagger & ReDoc (built-in with FastAPI)
+- **API Documentation**: Swagger
 
 ---
 
